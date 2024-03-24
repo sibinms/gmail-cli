@@ -6,12 +6,12 @@ RULES_SCHEMA = [
       {
         "field_name": "sender",
         "predicate": "contains",
-        "value": "Highire Manpower Services <vacancy@vacancies.shine.com>"
+        "value": "vacancy@openings.shine.com"
       },
       {
         "field_name": "subject",
         "predicate": "equals",
-        "value": "Shop smarter, not harder; Beat online scammers"
+        "value": "Urgent Hiring for Site Engineer at Nitcaa"
       }
     ],
     "actions": [
