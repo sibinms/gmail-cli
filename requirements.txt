@@ -3,3 +3,4 @@ google-auth==2.29.0
 google-auth-oauthlib==1.2.0
 pytest==8.1.1
 urllib3==1.26.8
+typer-cli==0.0.13
