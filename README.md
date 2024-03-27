@@ -16,3 +16,9 @@
 8. For running tests - pytest tests/.
 
 <img width="937" alt="Screenshot 2024-03-24 at 11 40 08 AM" src="https://github.com/sibinms/gmail-cli/assets/92161034/04cd65d3-3bd6-45c3-91a6-10fa61e04eb0">
+
+## For Gmail CLI using Typer
+>  python3 run.py --help
+
+<img width="952" alt="Screenshot 2024-03-27 at 11 22 40 AM" src="https://github.com/sibinms/gmail-cli/assets/92161034/d3a910d6-cc52-4327-ae0a-5b5e0109683b">
+
