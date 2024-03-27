@@ -2,8 +2,22 @@ import typer
 from adapters.google_adapter import authenticate, get_service, fetch_emails, import_emails
 from handlers.rule_handler import rule_handler
 from schema.migrate import run_migrations
-
+import subprocess
 app = typer.Typer()
+
+
+@app.command()
+def run_tests():
+    """
+    Runs pytest tests.
+    """
+    typer.echo("Running pytest tests...")
+    try:
+        subprocess.run(["pytest", "tests/"], check=True)
+    except subprocess.CalledProcessError as e:
+        typer.echo(f"Error running tests: {e}")
+    else:
+        typer.echo("Tests completed successfully.")
 
 
 def authenticate_with_google():
